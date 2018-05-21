@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.right-nav-bar li {
+    float: right;
+}
+
+.left-nav-bar li {
+    float: left;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border: 1px, solid rgb(230, 230, 230);
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px; 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    height: 233px;
+    margin-top: 83px;
+}
+
+#hplogo {
+    width: 272px;
+    height: 201px;
+}
+.google img {
+    height: 92;
+}
+
+.main {
+    text-align: center;
+    padding-top: 175px;
+    width: 100%;
+}
