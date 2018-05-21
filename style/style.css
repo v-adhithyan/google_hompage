@@ -24,6 +24,7 @@ li a:hover {
 }
 
 ul {
+    list-style-type: none;
     margin-top: 10px;
     font-size: 14px;
 }
@@ -37,7 +38,6 @@ li a {
 }
 
 .logo {
-    height: 233px;
     margin-top: 83px;
 }
 
@@ -49,8 +49,40 @@ li a {
     height: 92;
 }
 
+body {
+    font-family: arial,sans-serif;
+}
+
 .main {
     text-align: center;
     padding-top: 175px;
     width: 100%;
+}
+.buttons {
+    padding-top: 18px;
+}
+
+input[type="submit"] {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 1px solid #f2f2f2;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    text-align: center;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 27px;
+    cursor: default;
+}
+
+input[type="text"] {
+    position: relative;
+    line-height: 34px;
+    height: 34px;
+    width: 559px;
+    color: #000;
 }
